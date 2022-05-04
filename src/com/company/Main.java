@@ -12,7 +12,6 @@ import ge.itvet.convertor.media.MediaType;
 
 public class Main {
 
-
     public static void main(String[] args) {
         Media suramela = new Media(MediaType.MP3);
         MediaConverter converter = new MediaConverterImpl(MediaType.MP4, suramela);
