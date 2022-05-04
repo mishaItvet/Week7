@@ -16,18 +16,18 @@ public class Main {
         Media suramela = new Media(MediaType.MP3);
         MediaConverter converter = new MediaConverterImpl(MediaType.MP4, suramela);
         System.out.println(converter.info());
-        saba(converter);
+        lasha_giorgi(converter);
         System.out.println(converter.info());
         System.out.println("-------------------------CURRENCY-----------------");
         Currency currency = new Currency(10, CurrencyType.GBP);
         CurrencyConverter currencyConverter = new CurrencyConverter(currency,CurrencyType.GEL);
         System.out.println(currency);
-        saba(currencyConverter);
+        lasha_giorgi(currencyConverter);
         System.out.println(currency);
 
     }
 
-    public static void saba(Convertable x) {
+    public static void lasha_giorgi(Convertable x) {
         x.convert();
     }
 
